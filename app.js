@@ -4,6 +4,8 @@ const PORT = process.env.PORT || 1377;
 
 
 app.use(express.json());
+
+
 app.use(express.static('public'));
 console.log('what is going on');
 
